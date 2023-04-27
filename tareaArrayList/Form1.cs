@@ -31,20 +31,23 @@ namespace tareaArrayList
             datos.Add(notas);
 
             string salida = "";
-            for(int i = 0; i < datos.Count - 1; i++)
+            int[] aux = new int[4];
+            for(int i = 0; i < datos.Count; i++)
             {
                 if(i == 2)
                 {
-                    foreach(int j in notas)
+                    aux = (int[]) datos[2];
+                    for(int j = 0; j < 4; j++)
                     {
-                        salida += j.ToString() + "\n";
+                        salida += aux[j].ToString() + "\n";
                     }
                 }
-                salida += datos[i].ToString() + "\n";
+                else
+                {
+                    salida += datos[i].ToString() + "\n";
+                }
             }
             lblResultado.Text = salida;
-            
-
 
         }
 
