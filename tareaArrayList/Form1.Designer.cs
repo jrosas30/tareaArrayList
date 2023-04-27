@@ -33,13 +33,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtRut = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtNota = new System.Windows.Forms.TextBox();
+            this.txtNota1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtNota2 = new System.Windows.Forms.TextBox();
+            this.txtNota3 = new System.Windows.Forms.TextBox();
+            this.txtNota4 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -84,12 +84,12 @@
             this.txtNombre.Size = new System.Drawing.Size(202, 20);
             this.txtNombre.TabIndex = 4;
             // 
-            // txtNota
+            // txtNota1
             // 
-            this.txtNota.Location = new System.Drawing.Point(374, 55);
-            this.txtNota.Name = "txtNota";
-            this.txtNota.Size = new System.Drawing.Size(62, 20);
-            this.txtNota.TabIndex = 5;
+            this.txtNota1.Location = new System.Drawing.Point(374, 55);
+            this.txtNota1.Name = "txtNota1";
+            this.txtNota1.Size = new System.Drawing.Size(62, 20);
+            this.txtNota1.TabIndex = 5;
             // 
             // button1
             // 
@@ -119,39 +119,39 @@
             this.lblResultado.TabIndex = 8;
             this.lblResultado.Text = "resultado";
             // 
-            // textBox1
+            // txtNota2
             // 
-            this.textBox1.Location = new System.Drawing.Point(443, 55);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(62, 20);
-            this.textBox1.TabIndex = 9;
+            this.txtNota2.Location = new System.Drawing.Point(443, 55);
+            this.txtNota2.Name = "txtNota2";
+            this.txtNota2.Size = new System.Drawing.Size(62, 20);
+            this.txtNota2.TabIndex = 9;
             // 
-            // textBox2
+            // txtNota3
             // 
-            this.textBox2.Location = new System.Drawing.Point(511, 55);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(62, 20);
-            this.textBox2.TabIndex = 10;
+            this.txtNota3.Location = new System.Drawing.Point(511, 55);
+            this.txtNota3.Name = "txtNota3";
+            this.txtNota3.Size = new System.Drawing.Size(62, 20);
+            this.txtNota3.TabIndex = 10;
             // 
-            // textBox3
+            // txtNota4
             // 
-            this.textBox3.Location = new System.Drawing.Point(579, 55);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(62, 20);
-            this.textBox3.TabIndex = 11;
+            this.txtNota4.Location = new System.Drawing.Point(579, 55);
+            this.txtNota4.Name = "txtNota4";
+            this.txtNota4.Size = new System.Drawing.Size(62, 20);
+            this.txtNota4.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNota4);
+            this.Controls.Add(this.txtNota3);
+            this.Controls.Add(this.txtNota2);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtNota);
+            this.Controls.Add(this.txtNota1);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtRut);
             this.Controls.Add(this.label3);
@@ -171,13 +171,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtRut;
         private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.TextBox txtNota;
+        private System.Windows.Forms.TextBox txtNota1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label lblResultado;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtNota2;
+        private System.Windows.Forms.TextBox txtNota3;
+        private System.Windows.Forms.TextBox txtNota4;
     }
 }
 
